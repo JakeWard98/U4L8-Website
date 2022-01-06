@@ -16,3 +16,25 @@ html,body
 	overflow-x: hidden;
 	background-color: #6cb2f3;
 }
+
+
+
+
+
+/*Link Styling*/
+a:link, a:visited /*Colour of link*/
+{
+   color: white;
+   text-decoration: none; /* removes underline*/
+   outline-style: none; /* removes bullet points*/
+}
+a:active, a:hover
+{
+	text-decoration: none; /* removes underline*/
+	outline-style: none; /* removes bullet points*/
+	color: yellow;
+	text-shadow: -1px -1px 0 black,
+				 1px -1px 0 black,
+				 -1px 1px 0 black,
+				 1px 1px 0 black;
+}
